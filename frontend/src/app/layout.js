@@ -9,22 +9,22 @@ const inter = Inter({ subsets: [ 'latin' ] })
 
 // Modern Metadata API (replaces manual <Head> tags )
 export const metadata = {
-  title: 'Play External Games Online – Free Brain Games & Mind Puzzles',
+  title: 'Play Eternal Games Online – Free Brain Games & Mind Puzzles',
   description: 'Discover ultimate eternal games and mind-bending puzzles that will energize your brain. Challenge yourself with thrilling mental adventures today!',
   alternates: {
     canonical: 'https://www.eternalgames.io',
   },
   openGraph: {
-    title: 'Play External Games Online – Free Brain Games & Mind Puzzles',
+    title: 'Play Eternal Games Online – Free Brain Games & Mind Puzzles',
     description: 'Discover ultimate eternal games and mind-bending puzzles that will energize your brain. Challenge yourself with thrilling mental adventures today!',
     url: 'https://www.eternalgames.io',
-    siteName: 'External games',
+    siteName: 'Eternal games',
     images: [
       {
         url: "https://emoongames.com/logo-full.png",
         width: 735,
         height: 735,
-        alt: "External games post image",
+        alt: "Eternal games post image",
       }
     ],
     type: 'website',

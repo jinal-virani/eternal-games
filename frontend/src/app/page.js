@@ -72,11 +72,11 @@ export default function Home() {
             data-ad-slot="9209979480"
             data-ad-format="auto"
             data-full-width-responsive="true" />
-          <h1 className="font-medium text-3xl font-sans text-lime-300 mt-5">Play the Best External Games Online – Brain Games & Mind Puzzles</h1>
+          <h1 className="font-medium text-3xl font-sans text-lime-300 mt-5">Featured Games – Play the Best Eternal Games Brain & Puzzle Games</h1>
           <CarouselMain helper={game} loading={loading} />
-          <SpecialCard isHorizontal={true} games={trendingGames} name={'Discover Fun and Challenging External Games'} loading={loading} />
-          <SpecialCard isHorizontal={true} games={featureGames} name={'External Brain Games to Boost Your Thinking Skills'} loading={loading} />
-          <Desktop name={'Free External Puzzle Games for Mental Challenges'} helper={game} />
+          <SpecialCard isHorizontal={true} games={trendingGames} name={'Discover Fun and Challenging Eternal Games'} loading={loading} />
+          <SpecialCard isHorizontal={true} games={featureGames} name={'Eternal Brain Games to Boost Your Thinking Skills'} loading={loading} />
+          <Desktop name={'Free Eternal Puzzle Games for Mental Challenges'} helper={game} />
         </div>
         <Footer />
         <GoogleAnalytics gaId="G-TF62GHPFEJ" />

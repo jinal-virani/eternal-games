@@ -57,8 +57,7 @@ export default function Blogs() {
         <div className="max-w-7xl 2xl:container mx-auto px-4 sm:px-6 py-12 md:py-16">
           <div>
             <p className="font-bold text-5xl text-center text-lime-500">Eternal Games Blogs</p>
-            <p className="tracking-wide mt-2 text-center max-w-2xl mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua.</p>
+            <p className="tracking-wide mt-2 text-center max-w-2xl mx-auto">Latest news and updates</p>
           </div>
           <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap:6 lg:gap-8">
             {
