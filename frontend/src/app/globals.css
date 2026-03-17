@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: black;
+  overflow-x: hidden;
+  /* background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+  ) rgb(var(--background-start-rgb)); */
+}
+
+@layer utilities {
+  .sidebar {
+    z-index: 99999 !important;
+    height: 100%;
+  }
+
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px grey;
+    border-radius: 15px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1E2E58;
+    border-radius: 15px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1A284B;
+  }
+
+  .about-zenGames {
+    height: inherit;
+  }
+}
+
+.home-slider {
+  height: 250px;
+}
+
+.homepage-games {
+  height: 190px;
+}
+
+.reset-all * {
+  /*margin: revert !important;*/
+  padding: revert !important;
+  /*font-size: revert !important;*/
+  /*font-weight: revert !important;*/
+  list-style-type: revert !important;
+  box-sizing: border-box;
+}
+
+.reset-all ol li[data-list="bullet"] {
+  list-style-type: disc !important;
+  display: list-item !important;
+}
+
+.reset-all blockquote {
+  border-left: 4px solid #ccc !important;
+  margin-bottom: 5px !important;
+  margin-top: 5px !important;
+  padding-left: 12px !important;
+}
+
+.reset-all table {
+  table-layout: fixed !important;
+  width: 100% !important;
+}
+.reset-all td {
+  border: 1px solid #000 !important;
+  padding: 2px 5px !important;
+}
+
+
+@media (min-width: 425px) and (max-width: 655px) {
+  .homepage-games {
+    height: 120px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+  .homepage-games {
+    height: 100px;
+  }
+
+  .home-slider {
+    height: 200px;
+  }
+}
+
+@media (min-width: 20px) and (max-width: 375px) {
+  .homepage-games {
+    height: 90px;
+  }
+
+  .home-slider {
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 3200px) {
+  .game-thumbnail {
+    height: 600Px !important;
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 435px) and (max-width: 768px) {
+  .game-thumbnail {
+    height: 450Px !important;
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 435px) {
+  .game-thumbnail {
+    height: 250Px !important;
+    width: 100% !important;
+  }
+}
+
+.home-page-sliders .swiper, .home-page-sliders .swiper-wrapper{
+  z-index: 0 !important;
+}
